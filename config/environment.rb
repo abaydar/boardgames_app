@@ -3,7 +3,7 @@ require 'bundler/setup'
 Bundler.require
 
 
-require_relative '../app/boardgame'
+require_relative '../app/models/boardgame'
 
 # establish connection to db
 
