@@ -4,6 +4,7 @@ Bundler.require
 
 
 require_relative '../app/models/boardgame'
+require_relative '../app/models/category'
 
 # establish connection to db
 
