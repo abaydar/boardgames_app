@@ -2,9 +2,10 @@
 require 'bundler/setup'
 Bundler.require
 
+require_all 'app'
 
-require_relative '../app/models/boardgame'
-require_relative '../app/models/category'
+# require_relative '../app/models/boardgame'
+# require_relative '../app/models/category'
 
 # establish connection to db
 
