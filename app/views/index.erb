@@ -1,4 +1,8 @@
 <!DOCTYPE html>
 <html>
     <h1>Board Games!</h1>
+    <% @boardgames.each do |bg| %>
+        <%= bg.name %>
+    <% end %>
+
 </html>
