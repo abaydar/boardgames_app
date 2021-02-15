@@ -2,7 +2,8 @@
 <html>
     <h1>Board Games!</h1>
     <% @boardgames.each do |bg| %>
-        <p><%= bg.name %><p>
+        <p><a href="boardgames/<%= bg.id %>"><%= bg.id %>.</a>
+        <%= bg.name %></p>
     <% end %>
 
 </html>

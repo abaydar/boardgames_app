@@ -5,7 +5,7 @@ class ApplicationController < Sinatra::Base
         #set :public_dir, "public"
     end
 
-    get '/boardgames/' do
+    get '/boardgames' do
         @boardgames = Boardgame.all
         erb :index
     end
