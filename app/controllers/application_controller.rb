@@ -13,6 +13,7 @@ class ApplicationController < Sinatra::Base
 
     get '/boardgames/:id' do
         @boardgame = Boardgame.find(params[:id])
+      
         erb :show
     end
 
