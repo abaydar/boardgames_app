@@ -6,6 +6,8 @@ class BoardgameController < ApplicationController
         erb :'boardgames/index'
     end
 
+    
+
 
     get '/boardgames/:id' do
         @boardgame = Boardgame.find(params[:id])
